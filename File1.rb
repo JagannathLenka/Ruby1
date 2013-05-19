@@ -1,2 +1,1 @@
-puts"Isha"
-puts "soma"
+File.open("file1.rb") if File::exists?( "file1.rb" )
